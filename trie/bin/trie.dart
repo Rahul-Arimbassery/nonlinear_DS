@@ -12,6 +12,7 @@ class Trie {
       node = node[c];
     }
     node['isendofword'] = true;
+    
   }
 
   bool search(String word) {
